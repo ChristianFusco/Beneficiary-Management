@@ -1,0 +1,40 @@
+UPDATE 1:
+
+	Removed some hardcoded values in convertToContact and rowToContact.  
+	Added helper functions to Contact.java.
+	Fixed a bug where if an attribute of a contact contained an apostrophe, the program would suffer an sql error.
+	
+UPDATE 2:
+
+	Removed extra functions from UI classes.
+	Removed a bunch of hardcoded stuff.
+	Added Utility.java, which now holds those extra functions.
+	Fixed a bug where Employee and Individual values were swapped.
+	Fixed documentation in java classes.
+	Resized some table columns on main UI.
+	Updated README.txt to include instructions on how to update the UI.
+	Fixed spacing in some sections.
+	
+UPDATE 3:
+
+	ManagementWindow now resizes correctly.
+	EditContact now no longer resizes.
+	Changed the format of EditContact so the menu is larger.
+	Added saving/loading from xml files.
+	Changed date format from a mix of dd/MM/yyyy and dd-MM-yyyy to a consistant yyyy-MM-dd.
+	Removed hardcoding in size listener for ManagementWindow
+	Refactored Utility.convertToContact so it's less cluttered.
+	
+UPDATE 4:
+	
+	Fixed anchoring issues on Edit Contact Window.
+	Added a file chooser for the excel support.
+	
+UPDATE 5:
+
+	Added a version named ExcelManagement that doesn't use SQL, only excel spreadsheets.
+	Button sizes are more consistant.
+	Font size issues have been fixed, for real this time.
+	Added constants to remove hardcoding.
+	Prevented users from changing timestamps.
+	Updated README

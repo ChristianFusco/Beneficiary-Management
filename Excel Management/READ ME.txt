@@ -1,0 +1,17 @@
+HOW TO INSTALL AND USE
+	First install the server, just double click setup.bat
+
+	Default name is BENEWEB.  Use a replace all to change the default.  Make sure that any changes are reflected in src/main/resources/ServerInfo.xml.  Also defaults to using system/oracle to create the namespace.
+
+	After that, the double click BeneManagement.jar.
+
+	Zip file is included if any changes need to be made.
+
+MAKING CHANGES TO UI
+	Right click a java class and open with WindowBuilder.  The WIndowbuilder is pretty easy to learn, it's just drag and drop with optional manual changes.  Any changes made in their GUI will be reflected in the createContents() function of that file.  Sometimes global variables will be added.  Changing those attributes manually is also an option, but I wouldn't suggest it.
+
+	Be careful where things are anchored if you're moving them around.  Everything is anchored on eachother, not assigned specific x and y locations.  Even if it looks nice, resizing the window might change the size/location of everything.
+
+SETTING UP SERVER
+	Run setup.bat
+	You can change beneweb to whatever server you'd like.  Make sure the change is made in src/main/resources/ServerInfo.xml

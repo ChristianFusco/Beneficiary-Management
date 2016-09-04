@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Resource SYSTEM "ServerInfo.dtd">
+        <Resource>
+			<username>BENEWEB</username>
+			<password>oracle</password> 
+			<url>jdbc:oracle:thin:@localhost:1521:ORCL</url> 
+		</Resource>
